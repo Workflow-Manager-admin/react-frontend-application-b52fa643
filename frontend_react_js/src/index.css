@@ -5,7 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100dvh;
 }
+
+/* Import component-level styles */
+@import './components/Header.css';
+@import './components/Footer.css';
+@import './components/MainContent.css';
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
